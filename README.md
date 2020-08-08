@@ -2,6 +2,10 @@
 
 # installation
 ```
+composer run-script post-autoload-dump
+composer run-script post-root-package-install
+composer run-script post-create-project-cmd 
+
 php artisan passport:install
 ```
 
